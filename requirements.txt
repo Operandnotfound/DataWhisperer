@@ -1,0 +1,6 @@
+gradio>=4.29.0
+pandas>=2.2.2
+nltk>=3.8.1
+ultralytics>=8.0.196
+scikit-learn>=1.4.0
+scipy>=1.12.1
