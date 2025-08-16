@@ -1,18 +1,27 @@
-# 🌀 AI Data Whisperer
-An open-source AI/ML tool to **clean, preprocess, and augment data** — built for hackathons, students, and indie developers who can’t afford expensive APIs.
+# 🌟 DataWhisperer  
 
-## Features
-- 🧹 **CSV Cleaner** – remove duplicates, handle missing values.
-- ✍️ **Text Augmenter** – generate simple text variations using WordNet.
-- 🖼️ **Image Labeler** – detect objects using YOLOv8n (lightweight).
-- 🪄 CPU-friendly, runs locally or on HuggingFace Spaces.
+**DataWhisperer** is an open-source project that helps you **clean, augment, and label datasets** in just a few clicks.  
+It’s designed to be lightweight, beginner-friendly, and free to use — no paid APIs required!  
 
-## Tech Stack
-- Python, Gradio, Pandas, NLTK, YOLOv8 (Ultralytics)
+---
 
-## Run Locally
+## 🚀 Features
+- **CSV Cleaner** → remove duplicates, handle nulls, and clean messy datasets.  
+- **Text Augmenter** → synonym replacement to boost NLP training data.  
+- **Image Labeler** → YOLOv8-based auto-labeling for object detection datasets.  
+- **Gradio UI** → beautiful and simple web interface for all tasks.  
+
+---
+
+## 🛠️ Installation
+
 ```bash
-git clone https://github.com/YOURNAME/ai-data-whisperer
-cd ai-data-whisperer
+# Clone the repo
+git clone https://github.com/Operandnotfound/DataWhisperer.git
+cd DataWhisperer
+
+# Install dependencies
 pip install -r requirements.txt
+
+# Run the app
 python app.py
